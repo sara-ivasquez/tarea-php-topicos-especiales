@@ -1,7 +1,6 @@
 <?php
 /**
  * Archivo de configuración de conexión a la base de datos
- * Utiliza PDO para conexiones seguras con prepared statements
  */
 
 // Configuración de la base de datos

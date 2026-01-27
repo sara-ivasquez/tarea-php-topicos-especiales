@@ -1,11 +1,7 @@
 /**
  * Estilos para el Sistema de Gestión de Usuarios
- * Diseño minimalista y profesional
  */
 
-/* ============================================
-   RESET Y ESTILOS BASE
-   ============================================ */
 * {
     margin: 0;
     padding: 0;
@@ -23,17 +19,13 @@ body {
     justify-content: center;
 }
 
-/* ============================================
-   CONTENEDOR PRINCIPAL
-   ============================================ */
+/*CONTENEDOR PRINCIPAL */
 .contenedor-principal {
     max-width: 600px;
     width: 100%;
 }
 
-/* ============================================
-   ENCABEZADO
-   ============================================ */
+/*ENCABEZADO */
 .encabezado {
     background: white;
     padding: 30px;
@@ -56,9 +48,7 @@ body {
     font-weight: 400;
 }
 
-/* ============================================
-   SECCIÓN DEL FORMULARIO
-   ============================================ */
+/* SECCIÓN DEL FORMULARIO */
 .seccion-formulario {
     background: white;
     padding: 35px;
@@ -75,9 +65,7 @@ body {
     padding-bottom: 10px;
 }
 
-/* ============================================
-   FORMULARIO
-   ============================================ */
+/*FORMULARIO*/
 .formulario {
     margin-bottom: 20px;
 }
@@ -114,9 +102,7 @@ body {
     color: #aaa;
 }
 
-/* ============================================
-   BOTÓN PRIMARIO
-   ============================================ */
+/* BOTÓN PRIMARIO*/
 .boton-primario {
     width: 100%;
     padding: 14px 20px;
@@ -141,9 +127,7 @@ body {
     box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
 }
 
-/* ============================================
-   MENSAJES DE FEEDBACK
-   ============================================ */
+/*MENSAJES DE FEEDBACK */
 .mensaje {
     padding: 16px 20px;
     border-radius: 6px;
@@ -169,23 +153,9 @@ body {
     display: none;
 }
 
-/* ============================================
-   ANIMACIONES
-   ============================================ */
-@keyframes aparecer {
-    from {
-        opacity: 0;
-        transform: translateY(-15px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
-/* ============================================
-   RESPONSIVE DESIGN
-   ============================================ */
+
+/* DISEÑO */
 @media (max-width: 600px) {
     body {
         padding: 15px;
