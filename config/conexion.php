@@ -10,7 +10,7 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 define('DB_CHARSET', 'utf8mb4');
 
-/**
+/** 
  * Establece conexión con la base de datos usando PDO
  * @return PDO|null Objeto PDO si la conexión es exitosa, null en caso de error
  */

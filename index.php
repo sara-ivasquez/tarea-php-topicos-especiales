@@ -49,7 +49,7 @@
         const GestionUsuarios = {
             
             /**
-             * Inicializa la aplicación configurando eventos
+             * Inicializa la aplicación
              */
             inicializar() {
                 this.configurarEventoFormulario();
@@ -67,9 +67,7 @@
                 });
             },
 
-            /**
-             * Procesa el registro del usuario enviando datos al servidor
-             */
+            /* Procesa el registro del usuario enviando datos al servidor*/
             procesarRegistro() {
                 const inputNombre = document.getElementById('nombre');
                 const nombreUsuario = inputNombre.value.trim();
@@ -127,7 +125,7 @@
             /**
              * Muestra un mensaje de feedback al usuario
              * @param {string} textoMensaje - Texto del mensaje a mostrar
-             * @param {string} tipoMensaje - Tipo de mensaje: 'exito' o 'error'
+             * @param {string} tipoMensaje - Tipo de mensaje: exito o error
              */
             mostrarMensaje(textoMensaje, tipoMensaje) {
                 const elementoMensaje = document.getElementById('mensaje-respuesta');
@@ -151,7 +149,7 @@
             }
         };
 
-        // Inicializar la aplicación cuando el DOM esté completamente cargado
+        // Inicializar la aplicación 
         document.addEventListener('DOMContentLoaded', () => {
             GestionUsuarios.inicializar();
         });
