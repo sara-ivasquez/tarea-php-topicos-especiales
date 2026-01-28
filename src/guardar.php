@@ -14,7 +14,7 @@ $respuesta = [
 // Verificar que la petición sea POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
-    // Obtener y sanitizar el nombre ingresado
+    // Obtenerel nombre ingresado
     $nombre_usuario = isset($_POST['nombre']) ? trim($_POST['nombre']) : '';
     
     // Validar que el nombre no esté vacío
